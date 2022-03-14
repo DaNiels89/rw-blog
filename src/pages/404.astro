@@ -1,0 +1,17 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+
+let title = '404 page';
+let description = 'Unfortunately we could not find this page!';
+let permalink = 'https://renewware.com/404/';
+---
+
+<html lang="en">
+  <head>
+    <BaseHead {title} {description} {permalink} />
+  </head>
+  <body>
+    <h1 class="404">{title}</h1>
+    <p class="">{description}</p>
+  </body>
+</html>
